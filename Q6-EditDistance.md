@@ -23,4 +23,4 @@ Program that take two string and return the distance between them. The distance 
 
 - the remain characters in second string is insertions . for each character increment the counter of insertions.
 
-- at the end we return the amount of insertions and deletions .
+- at the end return the amount of insertions and deletions .
