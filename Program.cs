@@ -17,11 +17,10 @@ namespace QuestionsAndAnswerss
            Console.WriteLine(Multiplication.DoMultiplication("6", "6")); // 36
            Console.WriteLine(Multiplication.DoMultiplication("5", "5")); // 25
 
-
+           UTF16.PrintHexAndBinary('M');
+           UTF16.PrintHexAndBinary(91);
+           UTF16.PrintHexAndBinary("dot.net");
            
-
-  
-
         }
     }
 }
