@@ -17,6 +17,7 @@ namespace QuestionsAndAnswerss
            Console.WriteLine(Multiplication.DoMultiplication("6", "6")); // 36
            Console.WriteLine(Multiplication.DoMultiplication("5", "5")); // 25
 
+
            
 
   
