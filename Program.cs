@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 
+
 namespace QuestionsAndAnswerss
 {
     class Program
@@ -20,7 +21,12 @@ namespace QuestionsAndAnswerss
            UTF16.PrintHexAndBinary('M');
            UTF16.PrintHexAndBinary(91);
            UTF16.PrintHexAndBinary("dot.net");
+
+           var x = 1.256;
            
+           ConvertToString.PrintDoubleAsString(x);
+
         }
+
     }
 }
