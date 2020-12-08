@@ -28,9 +28,11 @@ namespace QuestionsAndAnswerss
 
            var c = "    who are you   "; 
            Console.WriteLine(Trim.TirmString(c)); //who are you
+
+           
            Console.WriteLine(FindWord.Find_Word("test idk" , "idk")); // 5
-           Console.WriteLine(FindWord.Find_Word("good bay" , "od")); // 5
-           Console.WriteLine(FindWord.Find_Word("good night" , "ht")); // 5
+           Console.WriteLine(FindWord.Find_Word("good bay" , "od")); // 2
+           Console.WriteLine(FindWord.Find_Word("good night" , "ht")); // 8
 
 
 
