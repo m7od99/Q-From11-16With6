@@ -26,6 +26,9 @@ namespace QuestionsAndAnswerss
            var s = ConvertToString.ToString(223201);
            System.Console.WriteLine(s);
 
+           var c = "    who are you   "; 
+           System.Console.WriteLine(Trim.TirmString(c)); //who are you
+
 
 
         }
