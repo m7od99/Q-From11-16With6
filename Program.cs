@@ -24,10 +24,14 @@ namespace QuestionsAndAnswerss
 
            
            var s = ConvertToString.ToString(223201);
-           System.Console.WriteLine(s);
+           Console.WriteLine(s);
 
            var c = "    who are you   "; 
-           System.Console.WriteLine(Trim.TirmString(c)); //who are you
+           Console.WriteLine(Trim.TirmString(c)); //who are you
+           Console.WriteLine(FindWord.Find_Word("test idk" , "idk")); // 5
+           Console.WriteLine(FindWord.Find_Word("good bay" , "od")); // 5
+           Console.WriteLine(FindWord.Find_Word("good night" , "ht")); // 5
+
 
 
 
