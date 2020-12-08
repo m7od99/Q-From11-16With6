@@ -22,11 +22,16 @@ namespace QuestionsAndAnswerss
            UTF16.PrintHexAndBinary(91);
            UTF16.PrintHexAndBinary("dot.net");
 
-           var x = 1.256;
            
-           ConvertToString.PrintDoubleAsString(x);
+           var s = ConvertToString.ToString(223201);
+           System.Console.WriteLine(s);
+
+
 
         }
+       
+
 
     }
+    
 }
