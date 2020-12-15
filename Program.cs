@@ -34,6 +34,8 @@ namespace QuestionsAndAnswerss
            Console.WriteLine(FindWord.Find_Word("good bay" , "od")); // 2
            Console.WriteLine(FindWord.Find_Word("good night" , "ht")); // 8
 
+           System.Console.WriteLine(ReverseString.Reverse("hello"));
+
 
 
 
