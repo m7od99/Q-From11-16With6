@@ -39,5 +39,15 @@ namespace QuestionsAndAnswerss {
                     return x;
                 }
         }
+
+        public static int Multi(int a , int b)
+        {
+            var x = 0;
+            for (int i = 0; i < a; i++)
+            {
+                x = x+b;
+            }
+            return x ;
+        }
     }
 }
