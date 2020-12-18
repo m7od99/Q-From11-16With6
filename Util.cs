@@ -1,5 +1,7 @@
 using System;
 using System.Linq;
+using System.Text.Encodings;
+
 namespace QuestionsAndAnswerss {
     public class Util {
 
@@ -19,7 +21,7 @@ namespace QuestionsAndAnswerss {
             }
             return word;
         }
-        public static int RandomChar () => new Random ().Next (0, 30);
+        public static int RandomChar () => new Random ().Next (0, 27);
 
         public static bool TestIfRevere () {
             var x = RandomString ();
@@ -68,5 +70,26 @@ namespace QuestionsAndAnswerss {
             }
             return word;
         }
+
+        public static bool TestUTF16Hex () {
+            var x = new Random ().Next (1, 254);
+            var s = x.ToString ("x");
+            if (UTF16.ConvertToHex ((char) x) == s) {
+                return true;
+            } else return false;
+        }
+
+        public static bool TestUTF16Binary () {
+            var x = new Random ().Next (1, 254);
+            var s = Convert.ToString ((char) x, 2);
+            if (UTF16.ConvertToBinary ((char) x).ToString () == s) {
+                return true;
+            } else return false;
+        }
+       
+    
+
+       
+
     }
 }
